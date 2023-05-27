@@ -173,6 +173,10 @@ fieldset {
   border: 1px solid #f33232;
 }
 
+.fieldset_counter_input.error:focus {
+  outline: none;
+}
+
 /* Text input */
 
 .fieldset_textarea {
@@ -218,4 +222,23 @@ fieldset {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
+  cursor: pointer;
+  margin-left: auto;
+  transition: all 0.2s ease;
+}
+
+.bottom_box_submit_button:hover {
+  background-color: #191847;
+}
+
+.bottom_box_submit_button:disabled {
+  color: #555555;
+  background-color: #c5cfd6;
+  border: 2px solid #555555;
+  cursor: not-allowed;
+}
+
+.error_message {
+  font-size: 10px;
+  color: #f33232;
 }
