@@ -119,7 +119,7 @@ function App() {
           </fieldset>
           {/* Parte da quantidade de stickers */}
           <fieldset className='form_fieldset_counter'>
-            <legend className='fieldset_title'>Quantos stickers de cada?</legend>
+            <legend className='fieldset_title'>Quantos stickers ?</legend>
             <div className='fieldset_counter_div'>
               <label htmlFor='counter_input'>
                 <button
